@@ -1,8 +1,10 @@
 package com.thisisnoble.javatest.events;
 
-import com.thisisnoble.javatest.Event;
+import com.thisisnoble.javatest.impl.CompositeEvent;
+import com.thisisnoble.javatest.interfaces.Event;
+import com.thisisnoble.javatest.interfaces.IMarginEvent;
 
-public class MarginEvent implements Event {
+public class MarginEvent implements IMarginEvent {
 
     private final String id;
     private final String parentId;
@@ -25,4 +27,5 @@ public class MarginEvent implements Event {
     public double getMargin() {
         return margin;
     }
+
 }

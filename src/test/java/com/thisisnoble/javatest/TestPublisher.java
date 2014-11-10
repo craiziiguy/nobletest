@@ -1,5 +1,8 @@
 package com.thisisnoble.javatest;
 
+import com.thisisnoble.javatest.interfaces.Event;
+import com.thisisnoble.javatest.interfaces.Publisher;
+
 public class TestPublisher implements Publisher {
 
     private Event lastEvent;

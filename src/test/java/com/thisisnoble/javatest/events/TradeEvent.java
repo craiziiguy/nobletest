@@ -1,8 +1,9 @@
 package com.thisisnoble.javatest.events;
 
-import com.thisisnoble.javatest.Event;
+import com.thisisnoble.javatest.interfaces.Event;
+import com.thisisnoble.javatest.interfaces.ITradeEvent;
 
-public class TradeEvent implements Event {
+public class TradeEvent implements ITradeEvent {
 
     private final String id;
     private final double notional;
@@ -18,5 +19,9 @@ public class TradeEvent implements Event {
 
     public double getNotional() {
         return notional;
+    }
+
+    public String getParentId() {
+        return null;
     }
 }

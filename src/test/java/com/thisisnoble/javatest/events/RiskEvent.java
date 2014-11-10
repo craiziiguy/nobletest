@@ -1,8 +1,9 @@
 package com.thisisnoble.javatest.events;
 
-import com.thisisnoble.javatest.Event;
+import com.thisisnoble.javatest.interfaces.Event;
+import com.thisisnoble.javatest.interfaces.IRiskEvent;
 
-public class RiskEvent implements Event {
+public class RiskEvent implements IRiskEvent {
 
     private final String id;
     private final String parentId;

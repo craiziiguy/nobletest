@@ -1,4 +1,6 @@
-package com.thisisnoble.javatest;
+package com.thisisnoble.javatest.interfaces;
+
+import com.thisisnoble.javatest.interfaces.Event;
 
 public interface Processor {
 

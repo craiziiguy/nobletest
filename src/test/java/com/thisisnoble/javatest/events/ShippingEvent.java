@@ -1,8 +1,9 @@
 package com.thisisnoble.javatest.events;
 
-import com.thisisnoble.javatest.Event;
+import com.thisisnoble.javatest.interfaces.Event;
+import com.thisisnoble.javatest.interfaces.IShippingEvent;
 
-public class ShippingEvent implements Event {
+public class ShippingEvent implements IShippingEvent {
 
     private final String id;
     private final String parentId;

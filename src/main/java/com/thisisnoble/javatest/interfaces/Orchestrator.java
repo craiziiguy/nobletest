@@ -1,4 +1,4 @@
-package com.thisisnoble.javatest;
+package com.thisisnoble.javatest.interfaces;
 
 public interface Orchestrator {
 

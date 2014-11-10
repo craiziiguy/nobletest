@@ -1,7 +1,7 @@
 package com.thisisnoble.javatest.processors;
 
-import com.thisisnoble.javatest.Event;
-import com.thisisnoble.javatest.Orchestrator;
+import com.thisisnoble.javatest.interfaces.Event;
+import com.thisisnoble.javatest.interfaces.Orchestrator;
 import com.thisisnoble.javatest.events.MarginEvent;
 import com.thisisnoble.javatest.events.ShippingEvent;
 import com.thisisnoble.javatest.events.TradeEvent;

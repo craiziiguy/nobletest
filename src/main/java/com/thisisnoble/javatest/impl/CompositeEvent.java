@@ -1,11 +1,11 @@
 package com.thisisnoble.javatest.impl;
 
-import com.thisisnoble.javatest.Event;
+import com.thisisnoble.javatest.interfaces.Event;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class CompositeEvent implements Event {
+public class CompositeEvent implements Event  {
 
     private final String id;
     private final Event parent;
@@ -18,6 +18,10 @@ public class CompositeEvent implements Event {
 
     public String getId() {
         return id;
+    }
+
+    public String getParentId() {
+        return parent.getId();
     }
 
     public Event getParent() {
